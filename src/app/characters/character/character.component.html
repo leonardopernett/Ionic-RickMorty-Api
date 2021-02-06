@@ -1,0 +1,9 @@
+
+    <ion-col size-md="4" size=12>
+      <ion-item [routerLink]="['/character-details', character.id ]">
+        <ion-avatar slot="start">
+        <img src="{{character.image}}">
+       </ion-avatar>
+       <ion-label>{{character.name}}</ion-label>
+    </ion-item>
+    </ion-col>
